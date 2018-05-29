@@ -3,7 +3,7 @@ Please follw below steps:
 
 Option 1
 
-1. use gitclone to download repository to your workstation 
+1. Download zip file to your workstation https://github.com/steve20170207/devops-test-answer.git
 2. unzip the repository and go to the folder where content extracted. 
 3. make sure dockerfile and start.sh in current folder and run build command:
 
