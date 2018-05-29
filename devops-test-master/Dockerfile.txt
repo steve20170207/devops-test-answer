@@ -3,7 +3,7 @@ FROM centos:7 as builder
 RUN yum install -y maven git
 WORKDIR /
 RUN git clone https://github.com/ckannon/devops-test.git
-WORKDIR  /devops-test
+WORKDIR /devops-test
 RUN mvn package 
 
 #stage 2 to make a samller image to run java application
