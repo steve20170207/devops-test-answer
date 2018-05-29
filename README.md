@@ -11,8 +11,11 @@ Please follw below steps:
      dev-ops-test-centos   latest              a3e4a5dee189        About an hour ago   101MB
      
 5.  start the container by issuing below command:
+
        docker run  -it -d -p hostIP:hostPort:containerPort  dev-ops-test-centos /bin/sh
-    for example
+   
+   for example
+   
         docker run  -it -d -p 192.168.99.100:8088:8080  dev-ops-test-centos /bin/sh
         
 6. open broswer lauch http://hostIP:hostPort
