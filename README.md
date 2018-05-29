@@ -1,5 +1,8 @@
 # devops-test-answer
 Please follw below steps:
+
+Option 1
+
 1. use gitclone to download repository to your workstation 
 2. unzip the repository and go to the folder where content extracted. 
 3. make sure dockerfile and start.sh in current folder and run build command:
@@ -26,4 +29,12 @@ Please follw below steps:
     you are expected to see a line of text:
 
             Hello World!
-note:
+
+option 2 
+
+ use docker pull get the built image
+
+ steveliehealth/dev-ops-test-centos:latest
+ 
+re-tag and launch the container as per step 5 in option 1 
+ 
