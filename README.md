@@ -3,6 +3,7 @@ Please follw below steps:
 1. use gitclone to download repository to your workstation 
 2. unzip the repository and go to the folder where content extracted. 
 3. make sure dockerfile and start.sh in current folder and run build command:
+
      docker build --tag dev-ops-test-centos .
 4. use docker images to list the iamges and make suse image generated.
 
