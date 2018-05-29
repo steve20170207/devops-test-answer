@@ -5,8 +5,10 @@ Please follw below steps:
 3. make sure dockerfile and start.sh in current folder and run build command:
      docker build --tag dev-ops-test-centos .
 4. use docker images to list the iamges and make suse image generated.
+
      REPOSITORY            TAG                 IMAGE ID            CREATED             SIZE
      dev-ops-test-centos   latest              a3e4a5dee189        About an hour ago   101MB
+     
 5.  start the container by issuing below command:
        docker run  -it -d -p hostIP:hostPort:containerPort  dev-ops-test-centos /bin/sh
     for example
